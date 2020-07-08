@@ -1,0 +1,28 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header-area{
+    width:auto;
+    background: #F0FFF0;
+}
+.logo{width:15%;
+    position: absolute;
+    left: 10%;
+
+}
+.nav-item{margin-top: 3%;}
+.nav-item>a{list-style:none;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.banner{width:100%}
+.banner-area{padding-top: 10%;}
+
+.get-button{background: #21B573;
+    border-radius: 15px;
+    padding:3px;
+    width:35x;
+    color: #F0FFF0;;
+}
+
