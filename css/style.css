@@ -1,28 +1,94 @@
 body{
-    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
-.header-area{
-    width:auto;
+img{
+    width: 100%;
+}
+#header{
     background: #F0FFF0;
+    height: 650px;
 }
-.logo{width:15%;
-    position: absolute;
-    left: 10%;
+.navbar-brand{
+    width: 118.07px;
+    height: 29px;
+    left: 292px;
+}
+.learn-part{
+    padding-top: 100px;
+}
+.nav-link{
+    padding: 12px 28px;
 
 }
-.nav-item{margin-top: 3%;}
-.nav-item>a{list-style:none;
+.sign-btn{
+    width: 104px;
+    height: 43px;
+    background: #21B573;
+    border-radius: 33px;
+}
+.get-btn{
+    border: none;
+    width: 153px;
+    height: 43px;
+    border-radius: 33px;
+    background-color: #21B573;
+    transition: .7s;
+}
+.get-btn:hover,
+.sign-btn:hover{
+    background-color:#0e8048;
+}
+.topic-sec .col-md-3{
+  width: 0;
+}
+.single-topic{
+    background: #F8FFFB;
+}
+.single-topic img{
+    width: 66px;
+    height: 85px;
+}
+.single-topic:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.card{
+    border: none;
+    padding: 15px;
+    background-color: #fff;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+.card-footer img{
+    width:18px;
+    height: 20px;
+}
+
+.test-img{
+    width: 120px;
+    height: 120px;
+}
+footer{
+    background-color: #282531;
+    padding-top: 50px;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+font-size: 18px;
+color: #FFFFFF;
+text-decoration: none;
+}
+footer ul li a:hover{
+    color: #0e8048 ;
     text-decoration: none;
-    color:black;
-    font-weight: bold;
 }
-.banner{width:100%}
-.banner-area{padding-top: 10%;}
-
-.get-button{background: #21B573;
-    border-radius: 15px;
-    padding:3px;
-    width:35x;
-    color: #F0FFF0;;
-}
-

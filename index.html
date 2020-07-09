@@ -3,56 +3,196 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>2nd assignment e-school-website</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <title>E-school-website</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="responsive.css">
     </head>
     <body>
-        <div class="container header-area">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><img class="logo"src="icon/Logo.png" alt="e-school">
+
+       <header id="header"> 
+           <div class="container"> 
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="icon/Logo.png" class="img-fluid" alt="">
                     </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="#">Books</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Courses</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Others</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Sing in</a>
-                  </li>
-              </ul>
-        
-        
-            <div class="row banner-area">
-                <div class="col-6">
-                    <p class="text-danger">Are you ready to Learn</p>
-                    <h1> 
-                        Lerarn with fun <br>on <span class="text-success">any sedule</span>
-                    </h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Ex amet veniam fugiat vel.
-                    </p>
-                    <button class="get-button"><a>Get Started</a></button>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Couros</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Others</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link " href="#" >Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sign-btn  d-flex justify-content-center text-white" href="#" >Sign In</a>
+                        </li>
+                    </ul>
+                    </div>
+                </nav>
+                <div class="learn-part"> 
+                    <div class="row"> 
+                        <div class="col-md-4">
+                            <h6 class="text-danger">Are you ready to learn?</h6>   
+                            <h1>Learn with fun</h1> 
+                            <h1>On <span class="text-success">any schedule</span></h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quos odit iste fuga sequi?</p>
+                            <button class="get-btn text-white">Get Started</button>
+                        </div>
+                        <div class="col-md-8 margin-t"> 
+                            <img src="images/Illustration.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-6">
-                    <div class="banner-img">
-                        <img class="banner"src="imges/Illustration.png" alt="">
+           </div>
+       </header>
+       <section class="topic-sec mt-5 pt-5"> 
+           <div class="container"> 
+               <div class="row"> 
+                   <div class="col-lg-3 col-md-6 col-sm-12  single-topic text-center">
+                       <img src="icon/book.png" class="pt-3 pb-3 " alt="">
+                       <h3>1550+ Topic</h3>
+                       <h6>Learn Anythings</h6>
+                   </div>
+                   <div class="col-lg-3 col-md-6 col-sm-12  single-topic text-center">
+                        <img src="icon/Student.png" class="pt-3 pb-3"  alt="">
+                        <h3>1800+ Students</h3>
+                        <h6>Learn Anythings</h6>
+                   </div>
+                   <div class="col-lg-3 col-md-6 col-sm-12  single-topic text-center">
+                        <img src="icon/Test.png" class="pt-3 pb-3"  alt="">
+                        <h3>9k+ Test Token</h3>
+                        <h6>Learn Anythings</h6>
+                   </div>
+                   <div class="col-lg-3 col-md-6 col-sm-12  single-topic text-center">
+                        <img src="icon/Students.png" class="pt-3 pb-3" alt="">
+                        <h3>2000+ Student</h3>
+                        <h6>Learn Anythings</h6>
+                   </div>
+               </div>
+           </div>
+       </section>
+        <section class="online-section mt-5 mb-5"> 
+            <div class="container"> 
+                <h1 class="text-center pb-5 mb-5">Online Courses</h1>
+                <div class="card-deck">
+                    <div class="card">
+                      <img src="images/Morder pyschology.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Mordern pyschology</h5>
+                        <p class="card-text">Designation</p>
+                        <button class="get-btn text-white ">Buy Course</button>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <p><img src="icon/calendar.png" class="img-fluid" alt=""> start 20 April, 2020</p>
+                        <p><img src="icon/people.png" alt=""> 60 Seats</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/Morder psyc.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Mordern pyschology</h5>
+                        <p class="card-text">Designation</p>
+                        <button class="get-btn text-white ">Buy Course</button>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <p><img src="icon/calendar.png" class="img-fluid" alt=""> start 20 April, 2020</p>
+                        <p><img src="icon/people.png" alt=""> 60 Seats</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/Morder pychons.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Mordern pyschology</h5>
+                        <p class="card-text">Designation</p>
+                        <button class="get-btn text-white ">Buy Course</button>
+                      </div>
+                      <div class="card-footer d-flex justify-content-between">
+                        <p><img src="icon/calendar.png" class="img-fluid" alt=""> start 20 April, 2020</p>
+                        <p><img src="icon/people.png" alt=""> 60 Seats</p>
+                      </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="testimonial-section pb-5 mb-5"> 
+            <div class="container"> 
+                <h1 class="text-center pb-5 mb-5 pt-5">Testimonial</h1>
+                <div class="row justify-content-md-center"> 
+                    <div class="col-lg-2 test-img"> 
+                        <img src="images/Man.png" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-lg-4  test-text"> 
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour, 
+                           or randomised words which don't look even slightly believable.</p>
+                    </div>
+                </div>
+              
+            </div>
+        </section>
+        
+        <footer> 
+            <div class="container text-white"> 
+                <div class="row"> 
+                    <div class="col-lg-3 col-md-12 fot-single">
+                        <p>Please subscribe your email</p>
+                        <div class="from-control mt-4"> 
+                            <input  type="email" placeholder="Enter Your Email">
+                            <button class="get-btn text-white mt-2">Submit</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12  fot-single">
+                        <h3>Course</h3>
+                        <ul> 
+                            <li><a href="#">Graphic Design</a></li>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Graphic Design</a></li>
+                            <li><a href="#">Engineering</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-12   fot-single">
+                        <h3>Terms</h3>
+                        <ul> 
+                            <li><a href="#">Graphic Design</a></li>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Graphic Design</a></li>
+                            <li><a href="#">Engineering</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-12  fot-single">
+                        <h3>Useful Link</h3>
+                        <ul> 
+                            <li><a href="#">Graphic Design</a></li>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Graphic Design</a></li>
+                            <li><a href="#">Engineering</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="text-center pt-5 mt-5 pb-2">Copyright © 2020 Programming-hero.com</p>
+            </div>
+        </footer>
+            
 
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </body>
 </html>

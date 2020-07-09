@@ -1,0 +1,33 @@
+@media only screen and (max-width: 990px){
+    .fot-single{
+        margin-bottom: 40px;
+    }
+   
+  
+}
+@media only screen and (max-width: 768px){
+
+    .margin-t{
+        margin-top: 50px;
+    }
+    .single-topic,
+    .card{
+        margin: 10px;
+    }
+    .card-deck{
+        display: block;
+    }
+    .test-img {
+       margin: 0 auto;
+    }
+    .fot-single{
+        margin: 20px 50px;
+    }
+    .fot-single input{
+        display: block;
+    }
+    .test-text{
+        text-align: center;
+    }
+
+}
